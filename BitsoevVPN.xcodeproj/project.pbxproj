@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D0E103629F56001000E9178 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0E103529F56001000E9178 /* Vibration.swift */; };
-		2D112DF929ECBB650075FA20 /* myMac.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 2D112DF829ECBB650075FA20 /* myMac.ovpn */; };
 		2D34C0F229EC652500D78557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34C0F129EC652500D78557 /* AppDelegate.swift */; };
 		2D34C0F429EC652500D78557 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34C0F329EC652500D78557 /* SceneDelegate.swift */; };
 		2D34C0F629EC652500D78557 /* VPNStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34C0F529EC652500D78557 /* VPNStatusVC.swift */; };
@@ -17,6 +16,7 @@
 		2D34C10C29EC657C00D78557 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D34C10B29EC657C00D78557 /* NetworkExtension.framework */; };
 		2D34C10F29EC657C00D78557 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34C10E29EC657C00D78557 /* PacketTunnelProvider.swift */; };
 		2D34C11429EC657C00D78557 /* BitsoevNetworkExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D34C10929EC657C00D78557 /* BitsoevNetworkExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D43D53929F80B700092C358 /* myMac.ovpn in Resources */ = {isa = PBXBuildFile; fileRef = 2D43D53829F80B700092C358 /* myMac.ovpn */; };
 		2D7E26B529ECABDD00551B3C /* VPNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E26B429ECABDD00551B3C /* VPNService.swift */; };
 		2DB155E829EFD53200FE1A02 /* BigSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB155E729EFD53200FE1A02 /* BigSwitcher.swift */; };
 		2DB155EB29EFDA3000FE1A02 /* BigSwitcherState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB155EA29EFDA3000FE1A02 /* BigSwitcherState.swift */; };
@@ -25,6 +25,18 @@
 		2DB155F929F0712F00FE1A02 /* ServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB155F829F0712F00FE1A02 /* ServerInfo.swift */; };
 		2DB155FB29F0719C00FE1A02 /* ServersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB155FA29F0719C00FE1A02 /* ServersService.swift */; };
 		2DD5A2A229EC69080066352E /* OpenVPNAdapter in Frameworks */ = {isa = PBXBuildFile; productRef = 2DD5A2A129EC69080066352E /* OpenVPNAdapter */; };
+		2DFB221329F998A0009B6CDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFB221229F998A0009B6CDC /* GoogleService-Info.plist */; };
+		2DFB221429F998A0009B6CDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFB221229F998A0009B6CDC /* GoogleService-Info.plist */; };
+		2DFB222C29F9A073009B6CDC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB222B29F9A073009B6CDC /* FirebaseAnalytics */; };
+		2DFB222E29F9A073009B6CDC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB222D29F9A073009B6CDC /* FirebaseAuth */; };
+		2DFB223029F9A073009B6CDC /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB222F29F9A073009B6CDC /* FirebaseCrashlytics */; };
+		2DFB223229F9A073009B6CDC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB223129F9A073009B6CDC /* FirebaseDatabase */; };
+		2DFB223429F9A073009B6CDC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB223329F9A073009B6CDC /* FirebaseFirestore */; };
+		2DFB223629F9A073009B6CDC /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB223529F9A073009B6CDC /* FirebaseFunctions */; };
+		2DFB223829F9A073009B6CDC /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB223729F9A073009B6CDC /* FirebaseMessaging */; };
+		2DFB223A29F9A073009B6CDC /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB223929F9A073009B6CDC /* FirebaseRemoteConfig */; };
+		2DFB223C29F9A073009B6CDC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2DFB223B29F9A073009B6CDC /* FirebaseStorage */; };
+		2DFB223E29F9A175009B6CDC /* ServersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB223D29F9A175009B6CDC /* ServersResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +65,6 @@
 
 /* Begin PBXFileReference section */
 		2D0E103529F56001000E9178 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
-		2D112DF829ECBB650075FA20 /* myMac.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myMac.ovpn; sourceTree = "<group>"; };
 		2D34C0EE29EC652500D78557 /* BitsoevVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitsoevVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D34C0F129EC652500D78557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D34C0F329EC652500D78557 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +77,7 @@
 		2D34C10E29EC657C00D78557 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 		2D34C11029EC657C00D78557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D34C11129EC657C00D78557 /* BitsoevNetworkExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitsoevNetworkExtension.entitlements; sourceTree = "<group>"; };
+		2D43D53829F80B700092C358 /* myMac.ovpn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myMac.ovpn; sourceTree = "<group>"; };
 		2D7E26B429ECABDD00551B3C /* VPNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNService.swift; sourceTree = "<group>"; };
 		2DB155E729EFD53200FE1A02 /* BigSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSwitcher.swift; sourceTree = "<group>"; };
 		2DB155EA29EFDA3000FE1A02 /* BigSwitcherState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSwitcherState.swift; sourceTree = "<group>"; };
@@ -74,6 +86,8 @@
 		2DB155F829F0712F00FE1A02 /* ServerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerInfo.swift; sourceTree = "<group>"; };
 		2DB155FA29F0719C00FE1A02 /* ServersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersService.swift; sourceTree = "<group>"; };
 		2DD5A2A529EC69D50066352E /* BitsoevVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitsoevVPN.entitlements; sourceTree = "<group>"; };
+		2DFB221229F998A0009B6CDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2DFB223D29F9A175009B6CDC /* ServersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFB223029F9A073009B6CDC /* FirebaseCrashlytics in Frameworks */,
+				2DFB222C29F9A073009B6CDC /* FirebaseAnalytics in Frameworks */,
+				2DFB223C29F9A073009B6CDC /* FirebaseStorage in Frameworks */,
+				2DFB223829F9A073009B6CDC /* FirebaseMessaging in Frameworks */,
+				2DFB223229F9A073009B6CDC /* FirebaseDatabase in Frameworks */,
+				2DFB223629F9A073009B6CDC /* FirebaseFunctions in Frameworks */,
+				2DFB223429F9A073009B6CDC /* FirebaseFirestore in Frameworks */,
+				2DFB222E29F9A073009B6CDC /* FirebaseAuth in Frameworks */,
+				2DFB223A29F9A073009B6CDC /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +141,7 @@
 		2D34C0F029EC652500D78557 /* BitsoevVPN */ = {
 			isa = PBXGroup;
 			children = (
+				2DFB221229F998A0009B6CDC /* GoogleService-Info.plist */,
 				2DB155F729F070F600FE1A02 /* Models */,
 				2DB155F529F06C4400FE1A02 /* GlobalExtensions */,
 				2DB155F329F06B4400FE1A02 /* Screens */,
@@ -175,7 +199,7 @@
 		2DB155F429F06BBB00FE1A02 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2D112DF829ECBB650075FA20 /* myMac.ovpn */,
+				2D43D53829F80B700092C358 /* myMac.ovpn */,
 				2DD5A2A529EC69D50066352E /* BitsoevVPN.entitlements */,
 				2D34C0F129EC652500D78557 /* AppDelegate.swift */,
 				2D34C0F329EC652500D78557 /* SceneDelegate.swift */,
@@ -208,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				2DB155F829F0712F00FE1A02 /* ServerInfo.swift */,
+				2DFB223D29F9A175009B6CDC /* ServersResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +256,15 @@
 			);
 			name = BitsoevVPN;
 			packageProductDependencies = (
+				2DFB222B29F9A073009B6CDC /* FirebaseAnalytics */,
+				2DFB222D29F9A073009B6CDC /* FirebaseAuth */,
+				2DFB222F29F9A073009B6CDC /* FirebaseCrashlytics */,
+				2DFB223129F9A073009B6CDC /* FirebaseDatabase */,
+				2DFB223329F9A073009B6CDC /* FirebaseFirestore */,
+				2DFB223529F9A073009B6CDC /* FirebaseFunctions */,
+				2DFB223729F9A073009B6CDC /* FirebaseMessaging */,
+				2DFB223929F9A073009B6CDC /* FirebaseRemoteConfig */,
+				2DFB223B29F9A073009B6CDC /* FirebaseStorage */,
 			);
 			productName = BitsoevVPN;
 			productReference = 2D34C0EE29EC652500D78557 /* BitsoevVPN.app */;
@@ -285,6 +319,7 @@
 			mainGroup = 2D34C0E529EC652500D78557;
 			packageReferences = (
 				2DD5A2A029EC69080066352E /* XCRemoteSwiftPackageReference "OpenVPNAdapter" */,
+				2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 2D34C0EF29EC652500D78557 /* Products */;
 			projectDirPath = "";
@@ -302,8 +337,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D34C0FE29EC652700D78557 /* LaunchScreen.storyboard in Resources */,
+				2DFB221329F998A0009B6CDC /* GoogleService-Info.plist in Resources */,
+				2D43D53929F80B700092C358 /* myMac.ovpn in Resources */,
 				2D34C0FB29EC652700D78557 /* Assets.xcassets in Resources */,
-				2D112DF929ECBB650075FA20 /* myMac.ovpn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFB221429F998A0009B6CDC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +367,7 @@
 				2D34C0F229EC652500D78557 /* AppDelegate.swift in Sources */,
 				2DB155F929F0712F00FE1A02 /* ServerInfo.swift in Sources */,
 				2DB155EB29EFDA3000FE1A02 /* BigSwitcherState.swift in Sources */,
+				2DFB223E29F9A175009B6CDC /* ServersResponse.swift in Sources */,
 				2D7E26B529ECABDD00551B3C /* VPNService.swift in Sources */,
 				2D34C0F429EC652500D78557 /* SceneDelegate.swift in Sources */,
 			);
@@ -494,8 +532,7 @@
 				INFOPLIST_FILE = BitsoevVPN/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,8 +563,7 @@
 				INFOPLIST_FILE = BitsoevVPN/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -640,6 +676,14 @@
 				minimumVersion = 0.8.0;
 			};
 		};
+		2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -647,6 +691,51 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2DD5A2A029EC69080066352E /* XCRemoteSwiftPackageReference "OpenVPNAdapter" */;
 			productName = OpenVPNAdapter;
+		};
+		2DFB222B29F9A073009B6CDC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2DFB222D29F9A073009B6CDC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2DFB222F29F9A073009B6CDC /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		2DFB223129F9A073009B6CDC /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		2DFB223329F9A073009B6CDC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2DFB223529F9A073009B6CDC /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		2DFB223729F9A073009B6CDC /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		2DFB223929F9A073009B6CDC /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		2DFB223B29F9A073009B6CDC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DFB222A29F9A073009B6CDC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

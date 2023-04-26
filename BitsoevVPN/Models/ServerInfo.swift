@@ -6,6 +6,7 @@
 //
 
 struct ServerInfo {
-    let title: String
     let ip: String
+    let name: String
+    let ovpnFileUrl: String
 }

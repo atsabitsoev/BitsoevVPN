@@ -28,6 +28,9 @@ final class VPNStatusVC: UIViewController {
         setupUI()
         observe()
         loadVpnStatus()
+        serversService.loadServers { resp in
+            
+        }
     }
 }
 
@@ -60,7 +63,7 @@ private extension VPNStatusVC {
     }
 
     func setUIForVpnStatus(_ status: NEVPNStatus?) {
-        print(status?.rawValue)
+        print(status.debugDescription)
         switch status {
         case .connected:
             bigSwitcher.setOnState()
